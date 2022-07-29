@@ -13,8 +13,4 @@ routes.get( "/cursos", (req, res) => {
     res.render("courses-page")
 })
 
-routes.get( "/blog", (req, res) => {
-    res.render("blog")
-})
-
 module.exports = routes
