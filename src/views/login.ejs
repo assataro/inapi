@@ -1,0 +1,29 @@
+<%- include('header'); %>
+
+    <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex flex-column align-items-center py-6">
+                    <img class="img-80 mb-2" src="/svg/login-img.svg" alt="">
+                    <h1 class="h2 text-center text-gray-primary w-75">Faça seu login para ter acesso a todos os recursos do seu curso.</h1>
+                </div>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <form class="login-form">
+                        <label class="text-gray-primary" for="lf-mail">E-Mail</label>
+                        <input type="text" name="email" placeholder="Insira seu E-Mail" id="lf-mail">
+                        <label class="text-gray-primary" for="lf-pass">Senha</label>
+                        <input type="password" name="password" placeholder="Insira sua Senha" id="lf-pass">
+                        <button type="submit">Entrar</button>
+                        <a href="#">Esqueceu a Senha?</a>
+                        <p class="text-gray-primary">Não possui cadastro? <a href="/cadastrar">Cadastre-se aqui.</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <%- include('testimonials'); %>
+
+<%- include('footer'); %>
