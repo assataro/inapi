@@ -139,6 +139,8 @@ footer p, footer a { font-size: .75rem; }
 .my-1 { margin: 1rem 0; }
 .my-2 { margin: 2rem 0; }
 
+.module { padding: 1rem; border: 1px solid #ccc; margin: 0.5rem; border-radius: 1rem; }
+
 .notice h1 a { text-decoration: none; color: var(--color-blue-primary); }
 .notice h1 { font-weight: bold; }
 .notice img { aspect-ratio: 490/300; width: 100%; object-fit: cover; border-radius: 1rem; }
