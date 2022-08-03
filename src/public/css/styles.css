@@ -131,6 +131,10 @@ footer p, footer a { font-size: .75rem; }
 .login-form input { border: none; box-shadow: 0 .125rem .25rem rgba(0,0,0,.075); padding: 0 1.5rem; height: 3rem; outline: none; border-radius: 1rem; margin-bottom: 2rem; }
 .login-form button { cursor: pointer; box-shadow: 0 .125rem .25rem rgba(0,0,0,.075); background-color: var(--color-blue-primary); border: none; color: #fff; border-radius: 1rem; height: 3rem; text-transform: uppercase; margin-bottom: 2rem; }
 
+.login-form input::placeholder { color: #fff; opacity: 1; }
+.login-form input:-ms-input-placeholder { color: #fff; }
+.login-form input::-ms-input-placeholder { color: #fff; }
+
 .logo-container { height: 100px; display: flex; align-items: center; overflow: hidden; }
 
 .main-nav { height: 6.25rem; }
