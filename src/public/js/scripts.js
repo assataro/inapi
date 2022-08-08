@@ -22,3 +22,11 @@ btn_prev.addEventListener("click", () => {
         testimonial.style.transform = "translateX(" + translateX + "%)";
     })
 })
+
+document.querySelector(".mobile-menu-btn").addEventListener("click", () => {
+    document.querySelector(".mobile-menu").classList.add("open")
+})
+
+document.querySelector(".mobile-menu-btn-close").addEventListener("click", () => {
+    document.querySelector(".mobile-menu").classList.remove("open")
+})
